@@ -143,8 +143,15 @@ body {
 /*.item p { }*/
 /*Using the above selector, add a display property with value inline-block so the p elements behave more like inline elements.*/
 
+/*Step 73*/
+/*Focusing on the menu items and prices, there is a fairly large gap between each line.*/
+
+/*Use the existing selector that targets all the p elements nested in elements with the class named item and set their top and bottom margin to be 5px.*/
+
 .item p {
     display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 /*Step 38*/
 /*That's closer, but the price didn't stay over on the right. This is because inline-block elements only take up the width of their content. To spread them out, add a width property to the flavor and price class selectors that have a value of 50% each.*/
