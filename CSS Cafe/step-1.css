@@ -294,7 +294,7 @@ a {
 /*                                                                                                                                                             Change the color of the footer Visit our website link to be grey when a user has visited the link.*/
 
 a:visited {
-    color: grey;
+    color: black;
 }
 
 /*Step 81*/
@@ -309,4 +309,4 @@ a:hover { color: brown; }
 
 /*                                                                                                                                                            Change the color of the footer Visit our website link to be white when clicked on.*/
 
-a:active { color: white; }
+a:active { color: brown; }
